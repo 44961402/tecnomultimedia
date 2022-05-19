@@ -8,6 +8,7 @@ PFont fuente6;
 PImage fondoAzul, warnerBros, warnerBrosFondo, tomyjerry1, dolby, iatseLogo;
 
 void setup() {
+  noCursor();
   size(800, 450);
   //frameRate(1);
   //println (mouseX, mouseY, pmouseX, pmouseY);
@@ -430,8 +431,5 @@ void pant8() {
 //----------------------------
 void pant9() {
   image(warnerBrosFondo, 1, 1, 800, 450);
-  fill(0); 
-  if (frameCount > 1000 == true) {
-    rect(-1, -1, width, height);
   }
 }
