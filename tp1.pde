@@ -432,4 +432,3 @@ void pant8() {
 void pant9() {
   image(warnerBrosFondo, 1, 1, 800, 450);
   }
-}
